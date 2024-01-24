@@ -4,4 +4,8 @@
 3. The `notNFTListed` modifier ensures that an NFT is not already listed for sale before attempting to list it.
 4. The mint function allows users to mint a decentralized identity NFT.
 5. The getUserTokenId function returns the token ID associated with a user's address.
-6. The _baseURI function provides the base URI for metadata. 
+6. The _baseURI function provides the base URI for metadata.
+7. The createToken function allows the contract owner to mint new NFTs and assign them to a specific address.
+8. The burnToken function allows the contract owner to burn (destroy) an existing NFT.
+9. The baseTokenURI function provides the base URI for token metadata.
+10. The tokenURI function is overridden to generate the full URI for a specific token.
